@@ -1,0 +1,206 @@
+.main-recruit{
+    position: absolute; top: 0; left: 0;
+    padding: 135px 0; width: 100%; height: 1200px;
+    text-align: center;
+    background: url('/ando/images/layout/ando_camping_pc_main.png') center no-repeat;
+}
+.main-logo{
+    position: absolute; top: 4%; right: 7%;
+}
+.main-logo h1 { width: 0; height: 0; text-indent: -99999px; }
+
+
+.recruit-tit img { margin: 0 auto -110px; }
+.recruit-tit-middle { margin: 15px 0 60px; }
+.recruit-contents{
+    display: block;
+    margin: 0 auto -30px; padding: 25px 75px 45px; max-width: 520px; width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,.2); border-radius: 70px;
+}
+.recruit-contents + .button{
+    margin: 0 auto 0; width: 270px;
+}
+@media (max-width: 1024px){
+    .main-recruit { background: url('/resources/ando/images/layout/ando_camping_pc_main.png') center no-repeat / cover; }
+    .main-logo img { width: auto; height: 45px; }
+}
+@media (max-width: 768px){
+    .main-recruit { padding-bottom: 280px; height: auto; }
+    .recruit-tit img { margin-bottom: -60px; }
+    .recruit-tit-middle { margin-bottom: 30px; }
+    .recruit-contents { margin-bottom: 10px; padding: 20px 15px 30px; }
+}
+
+
+
+
+
+
+
+
+
+/* visual */
+.visual{
+    padding-top: 155px; height: 700px;
+    background: url('/resources/ando/images/layout/ando_camping_pc_main.png') no-repeat center / cover;
+}
+.visual-title img { margin: auto; }
+@media (max-width: 1024px){
+    .visual{
+        padding-top: calc(800 / 640 * 100%); width: 100%; height: auto;
+        font-size: 0;
+        background: url('/resources/ando/images/layout/ando_camping_mo_main.png') no-repeat center / cover;
+    }
+    .visual .container { display: none; }
+}
+@media (max-width: 768px){
+}
+
+
+
+
+
+/* section1 */
+.section1{
+    padding: 120px 0; position: relative;
+}
+.intro-ul { margin-top: 60px; }
+.intro-ul > li { padding: 0; }
+.intro-ul > li h4 { margin: 30px 0 25px; line-height: 48px; }
+.intro-ul > li p { line-height: 38px; }
+
+.truck { margin: 125px 0 0; text-align: right; font-size: 0; }
+.truck img { display: inline-block; }
+@media (max-width: 1024px){
+    .section1 { padding: 60px 0; }
+    .intro-ul { margin-top: 15px; }
+    /*.intro-ul > li:first-child { display: none; }*/
+    .intro-ul > li:last-child { padding: 0; width: 100%; }
+    .intro-ul > li h4 { line-height: 38px; }
+    .intro-ul > li p { line-height: 32px; }
+
+    .truck { margin-top: 50px; }
+    .truck img { width: 150px; height: auto; }
+}
+@media (max-width: 768px){
+    .intro-ul { margin-top: 0; }
+    .intro-ul > li h4 { margin: 30px 0 20px; line-height: 28px; }
+    .intro-ul > li p { line-height: 28px; font-size: 14px; }
+}
+
+
+
+/* section2 */
+.section2{
+    position: relative;
+    margin-top: -60px;
+    padding: 70px 0 70px;
+}
+.section2:before{
+    content: ''; position: absolute; z-index: 1;
+    width: 100%; height: 100%;
+}
+.section2 .container { z-index: 2; position: relative; }
+.compose-ul { margin: 20px 0 100px; }
+.compose-ul > li { padding: 20px 7px; }
+.compose-ul > li p { margin-top: 10px; line-height: 30px; word-break: keep-all; white-space: normal; }
+.indoor { padding: 90px 0 100px; background: #fdfcfd; }
+.indoor img { margin: 45px auto 0; }
+@media (max-width: 1024px){
+    .section2 { padding: 60px 0 0; }
+    .compose-ul { margin: 20px 0 40px; }
+    .compose-ul > li { padding: 20px 0; width: 100%; }
+
+    .indoor { padding: 60px 0; }
+}
+@media (max-width: 768px){
+    .compose-ul > li p { line-height: 24px; }
+
+    .indoor img { width: 100%; height: auto; }
+}
+
+.video-wrap {position:relative; padding-bottom:56.25%; /*padding-top:30px;*/ height:0; overflow:hidden;}
+.video-wrap iframe,
+.video-wrap object,
+.video-wrap embed {position:absolute; top:0; left:0; width:100%; height:100%;}
+
+
+
+/* section3 */
+.section3 { overflow: hidden; margin-top: -60px; padding-top: 50px; padding-bottom: 0px; }
+.play-ul { position: relative; margin: 10px 0 90px; text-align: center; }
+.play-ul:before,
+.play-ul:after{
+    content: ''; z-index: 1; position: absolute; top: 0; bottom: 0; left: -140px;
+    margin: auto; width: 137px; height: 93px;
+}
+.play-ul:after{
+    top: auto; left: auto; right: -170px; bottom: 100px;
+}
+.play-ul > li { padding: 10px 10px; }
+.play-ul > li img { margin: 0 auto 10px; }
+.play-ul > li p { margin-top: 5px; line-height: 26px; }
+
+.schedule h4 { margin-bottom: 40px; }
+.schedule-row { padding: 30px 0; border-top: 1px solid #ea5404; }
+.schedule-row:last-child { border-bottom: 1px solid #ea5404; }
+.schedule-row .top{
+    display: inline-block; vertical-align: top;
+    width: 350px;
+}
+.schedule-row .top span{
+    display: block;
+    margin-left: 20px; width: 160px; height: 45px; line-height: 45px;
+    text-align: center;
+    background: #e9ebed; border-radius: 23px;
+}
+.schedule-row .bottom{
+    display: inline-block; vertical-align: top;
+    width: calc(100% - 350px);
+    font-size: 0;
+}
+.schedule-row .bottom img { display: inline-block; vertical-align: top; width: calc(50% - 25px); }
+.schedule-row .bottom img:first-child { margin-right: 50px; }
+@media (max-width: 1024px){
+    .section3 { /*margin-top: 0;*/ padding: 120px 0 0; }
+    .play-ul { margin: 10px 0 60px; }
+    .play-ul > li img { width: auto; /*height: 80px;*/ }
+
+    .schedule-row .top { width: 100%; text-align: center; }
+    .schedule-row .top span { margin: auto; width: 130px; height: 40px; line-height: 40px; font-size: 15px; }
+    .schedule-row .bottom { padding: 20px 0 0; width: 100%; }
+    .schedule-row .bottom img { width: calc(50% - 7px); }
+    .schedule-row .bottom img:first-child { margin-right: 14px; }
+}
+@media (max-width: 768px){
+}
+@media (max-width: 600px){
+    .play-ul > li { width: 50%; }
+}
+
+
+
+
+/* section4 */
+.section4 { margin-top: -340px; padding: 110px 0 160px; }
+.map-ul { margin: 35px 0 0; }
+.location-row { position: relative; }
+.location { position: relative; margin: 25px 0 0; padding-left: 35px; }
+.location .img { position: absolute; top: 0; left: 0; }
+.location p { margin-top: 5px; }
+.balloon { position: absolute; bottom: 0; right: 15px; }
+@media (max-width: 1024px){
+    .section4 { margin-top: -180px; padding: 60px 0; }
+    .map-ul > li { width: 100%; }
+    /* .map-ul > li:first-child { display: none; } */
+    .balloon { position: static; text-align: right; font-size: 0; }
+    .balloon img { margin-top: 30px; width: 80px; height: auto; display: inline-block; }
+
+    .location { padding-left: 25px; }
+    .location img { width: auto; height: 20px; }
+    .location p { font-size: 15px; }
+}
+@media (max-width: 768px){
+    .location p { font-size: 14px; }
+}

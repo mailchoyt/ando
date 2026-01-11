@@ -1,0 +1,191 @@
+@font-face {
+  font-family: NotoKR;
+  src: url(/child/font/notokr-thin.eot);
+  src: url(/child/font/notokr-thin.eot?#iefix) format('embedded-opentype'),
+       url(../font/notokr-thin.woff2) format('woff2'), url(../font/notokr-thin.woff) format('woff');
+  font-weight: 100;
+}
+@font-face {
+  font-family: NotoKR;
+  src: url(../font/notokr-light.eot);
+  src: url(../font/notokr-light-1.eot) format('embedded-opentype'),
+       url(../font/notokr-light.woff2) format('woff2'), url(../font/notokr-light.woff) format('woff'),
+       url(../font/notokr-light.ttf) format('truetype');
+  font-weight: 200;
+}
+@font-face {
+  font-family: NotoKR;
+  src: url(../font/notokr-demilight.eot);
+  src: url(../font/notokr-demilight-1.eot) format('embedded-opentype'),
+       url(../font/notokr-demilight.woff2) format('woff2'), url(../font/notokr-demilight.woff) format('woff'),
+       url(../font/notokr-demilight.ttf) format('truetype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: NotoKR;
+  src: url(../font/notokr-regular.eot);
+  src: url(../font/notokr-regular-1.eot) format('embedded-opentype'),
+       url(../font/notokr-regular.woff2) format('woff2'), url(../font/notokr-regular.woff) format('woff'),
+       url(../font/notokr-regular.ttf) format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: NotoKR;
+  src: url(../font/notokr-medium.eot);
+  src: url(../font/notokr-medium-1.eot) format('embedded-opentype'),
+       url(../font/notokr-medium.woff2) format('woff2'), url(../font/notokr-medium.woff) format('woff'),
+       url(../font/notokr-medium.ttf) format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: NotoKR;
+  src: url(../font/notokr-bold.eot);
+  src: url(../font/notokr-bold-1.eot) format('embedded-opentype'),
+       url(../font/notokr-bold.woff2) format('woff2'), url(../font/notokr-bold.woff) format('woff'),
+       url(../font/notokr-bold.ttf) format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: NotoKR;
+  src: url(../font/notokr-black.eot);
+  src: url(../font/notokr-black-1.eot) format('embedded-opentype'),
+       url(../font/notokr-black.woff2) format('woff2'), url(../font/notokr-black.woff) format('woff'),
+       url(../font/notokr-black.ttf) format('truetype');
+  font-weight: 800;
+}
+
+
+
+@font-face {
+ font-family: sd;
+ font-weight: 100;
+ src: url(../font/SCDream1.eot);
+ src: url(../font/SCDream1-1.eot) format('embedded-opentype'),
+      url(../font/SCDream1.woff) format('woff'),
+      url(../font/SCDream1.ttf) format('truetype');
+}
+@font-face {
+ font-family: sd;
+ font-weight: 200;
+ src: url(../font/SCDream2.eot);
+ src: url(../font/SCDream2-1.eot) format('embedded-opentype'),
+      url(../font/SCDream2.woff2) format('woff2'),
+      url(../font/SCDream2.woff) format('woff'),
+      url(../font/SCDream2.ttf) format('truetype');
+}
+@font-face {
+ font-family: sd;
+ font-weight: 300;
+ src: url(../font/SCDream3.eot);
+ src: url(../font/SCDream3-1.eot) format('embedded-opentype'),
+      url(../font/SCDream3.woff2) format('woff2'),
+      url(../font/SCDream3.woff) format('woff'),
+      url(../font/SCDream3.ttf) format('truetype');
+}
+@font-face {
+ font-family: sd;
+ font-weight: 400;
+ src: url(../font/SCDream4.eot);
+ src: url(../font/SCDream4-1.eot) format('embedded-opentype'),
+      url(../font/SCDream4.woff2) format('woff2'),
+      url(../font/SCDream4.woff) format('woff'),
+      url(../font/SCDream4.ttf) format('truetype');
+}
+@font-face {
+ font-family: sd;
+ font-weight: 500;
+ src: url(../font/SCDream5.eot);
+ src: url(../font/SCDream5-1.eot) format('embedded-opentype'),
+      url(../font/SCDream5.woff2) format('woff2'),
+      url(../font/SCDream5.woff) format('woff'),
+      url(../font/SCDream5.ttf) format('truetype');
+}
+@font-face {
+ font-family: sd;
+ font-weight: 600;
+ src: url(../font/SCDream6.eot);
+ src: url(../font/SCDream6-1.eot) format('embedded-opentype'),
+      url(../font/SCDream6.woff2) format('woff2'),
+      url(../font/SCDream6.woff) format('woff'),
+      url(../font/SCDream6.ttf) format('truetype');
+}
+@font-face {
+ font-family: sd;
+ font-weight: 700;
+ src: url(../font/SCDream7.eot);
+ src: url(../font/SCDream7-1.eot) format('embedded-opentype'),
+      url(../font/SCDream7.woff2) format('woff2'),
+      url(../font/SCDream7.woff) format('woff'),
+      url(../font/SCDream7.ttf) format('truetype');
+}
+@font-face {
+ font-family: sd;
+ font-weight: 800;
+ src: url(../font/SCDream8.eot);
+ src: url(../font/SCDream8-1.eot) format('embedded-opentype'),
+      url(../font/SCDream8.woff2) format('woff2'),
+      url(../font/SCDream8.woff) format('woff'),
+      url(../font/SCDream8.ttf) format('truetype');
+}
+@font-face {
+ font-family: sd;
+ font-weight: 900;
+ src: url(../font/SCDream9.eot);
+ src: url(../font/SCDream9-1.eot) format('embedded-opentype'),
+      url(../font/SCDream9.woff2) format('woff2'),
+      url(../font/SCDream9.woff) format('woff'),
+      url(../font/SCDream9.ttf) format('truetype');
+}
+
+
+
+/* ========== Style Default ========== */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+	
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #333;
+  letter-spacing: -0.06em;
+  word-break:keep-all;
+  white-space:-moz-pre-wrap;
+  white-space:-pre-wrap;
+  white-space:-o-pre-wrap;
+  word-wrap:break-word;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+img { display: block; margin: 0; border: none; max-width: 100%; }
+ul { list-style: none; }
+a:link, a:hover, a:visited, a:active { color: inherit; text-decoration: none; }
+h1 { font-weight: 500; }
+h2 { font-weight: 500; }
+h3 { font-weight: 500; }
+h4 { font-weight: 500; }
+h5 { font-weight: 500; }
+h6 { font-weight: 500; }
+strong { font-weight: 500; }
+button { font-family: inherit; background: none; border: none; cursor: pointer; outline: none; }
+table { border-collapse: collapse; font-size: 15px; }
+input { outline: none; }
+input[type="password"] { font-family: NotoKR, Arial; }
+input, textarea, select { font-family: inherit; padding-left: 10px; border: 1px solid #e5e5e5; }
+label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] { cursor: pointer; }
+label{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
