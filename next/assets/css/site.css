@@ -1,0 +1,12 @@
+/* 안도 기러기캠핑장 공통 스타일. 화면 꾸밈은 각 페이지의 요소에 직접 들어 있고, 여기에는 바탕 규칙만 둔다. */
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;font-weight:700;font-family:'Gowun Dodum',system-ui,sans-serif;color:#1D2B4F;background:#1D2B4F}
+a{color:#1E6FB8}
+a:hover{color:#1D2B4F}
+button,input{font:inherit}
+img{max-width:100%}
+x-if{display:contents}
+x-if[hidden],[hidden]{display:none!important}
+template{display:none}
+html.menu-open{overflow:hidden}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
